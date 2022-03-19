@@ -13,10 +13,10 @@ const PALETTE_SECONDARY = '#b1d8f1';
 const PALETTE_TEXT = '#a0c8e2';
 const PALETTE_NEUTRAL = '#030f18';
 
-const SOUND_OBJECT_URL = '/assets/sounds/object.mp3';
-const SOUND_ASSEMBLE_URL = '/assets/sounds/assemble.mp3';
-const SOUND_TYPE_URL = '/assets/sounds/type.mp3';
-const SOUND_CLICK_URL = '/assets/sounds/click.mp3';
+const SOUND_OBJECT_URL = 'object.mp3';
+const SOUND_ASSEMBLE_URL = 'assemble.mp3';
+const SOUND_TYPE_URL = 'type.mp3';
+const SOUND_CLICK_URL = 'click.mp3';
 
 const themeProviderProps: ArwesThemeProviderProps = {
   themeSettings: {
@@ -37,7 +37,7 @@ const themeProviderProps: ArwesThemeProviderProps = {
 const globalStyles = {
   'html, body': {
     fontFamily: FONT_FAMILY_ROOT,
-    "background-image": "url('/assets/api/background-xlarge.jpg')"
+    "background-image": "url('background-xlarge.jpg')"
   }
 };
 
@@ -73,6 +73,7 @@ const bleepsProviderProps: BleepsProviderProps = {
     click: { player: 'click' }
   }
 };
+
 
 function RebelArmsApp ({ Component, pageProps }) {
   return (
