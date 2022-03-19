@@ -33,9 +33,9 @@ export default function Home () {
     <main>
       <AppContentWrapper>
         <Animator animator={{ manager: 'stagger' }}>
-          <center>
-          <img src={data.image} style={{"max-height": "80vh"}}/>
-          </center>
+          <Text>Hello Friend..</Text><br></br>
+          <Text>What brings you around?</Text>
+          <img src={data.image} style={{"height": "80vh", position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
         </Animator>
       </AppContentWrapper>
     </main>

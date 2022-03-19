@@ -19,13 +19,13 @@ const AppHeader: FC = () => {
         <div css={styles.container}>
           <Text as='h1' blink={true}>
             <Link href='/'>
-              RebelArms.Eth
+              Select your path:
             </Link>
           </Text>
           <Text as='nav' css={styles.nav} blink={false}>
             <ul css={styles.navList}>
               <li css={styles.navItem}>
-                <Link href='/projects'>Projects</Link>
+                <Link href='/projects'>XP</Link>
               </li>
               {/* <li css={styles.navItem}>
                 <Link href='/contact'>Contact</Link>
