@@ -69,7 +69,7 @@ function Projects () {
       <AppContentWrapper>
         <Animator animator={{ manager: 'stagger' }}>
           <header>
-            <Text as='h1'>Projects</Text>
+            <Text as='h1'>Previous Experience</Text>
           </header>
           <div css={styles.cards}>
             {projects.map(project =>
