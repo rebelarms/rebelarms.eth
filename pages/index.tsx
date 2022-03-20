@@ -35,7 +35,7 @@ export default function Home () {
         <Animator animator={{ manager: 'stagger' }}>
           <Text>Hello Friend..</Text><br></br>
           <Text>What brings you around?</Text>
-          <img src={data.image} style={{height: "80vh", padding: "20px", position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
+          <img src={data.image} style={{height: "70vh", padding: "20px", position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
         </Animator>
       </AppContentWrapper>
     </main>
